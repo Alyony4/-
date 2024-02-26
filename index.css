@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: papayawhip;
+}
+.calculator{
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  border: #000 solid 1px;
+  border-radius: 30px;
+  height: 400px;
+  width: 400px;
+  margin-top: 80px;
+  background: #fffdfd;
+  box-shadow: 10px 10px 15px 10px #9c7f6c;
+}
+.text{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 40px;
+}
+.input_numder{
+  margin-top: 15px;
+  width: 200px;
+  height: 23px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #9c7f6c;
+  box-shadow: 5px 5px 5px 5px #c2a796;
+}
+.result{
+  margin-top: 15px;
+  width: 120px;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 18px;
+  background: #fffdfd;
+  border-radius: 5px;
+  border: 1px solid #9c7f6c;
+  box-shadow: 5px 5px 5px 5px #dbc5b8;
+}
+.container_button{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.button{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  flex: 2;
+}
+.button_numder{
+  width:55px;
+  height: 65px;
+  border: none;
+  box-shadow: 5px 5px 5px 5px #c2a796;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.button_numder img{
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+}
+.elements{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex: 1;
+}
+.button_numder_e{
+  width: 35px;
+  height: 45px;
+  font-size: 18px;
+  margin-top: 10px;
+}
