@@ -29,12 +29,32 @@ body{
   height: auto;
   margin-left: 40px;
 }
-.input_numder{
+.input_field1{
   margin-top: 15px;
-  width: 200px;
+  width: 70px;
   height: 23px;
   font-size: 18px;
   border-radius: 5px;
+  border: 1px solid #9c7f6c;
+  box-shadow: 5px 5px 5px 5px #c2a796;
+}
+.input_field2{
+  margin-top: 15px;
+  width: 50px;
+  height: 23px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid #9c7f6c;
+  box-shadow: 5px 5px 5px 5px #c2a796;
+}
+.input_field3{
+  margin-top: 15px;
+  width: 70px;
+  height: 23px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 5px;
   border: 1px solid #9c7f6c;
   box-shadow: 5px 5px 5px 5px #c2a796;
 }

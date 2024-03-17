@@ -1,16 +1,16 @@
-function sum(a,b){
+function sum(a, b){
      return a+b
 }
-function subtraction(a,b){
+function subtraction(a, b){
   return a-b
 }
-function multiplication(a,b){
+function multiplication(a, b){
   return a*b
 }
-function division(a,b){
+function division(a, b){
   return a/b
 }
-function remains(a,b){
+function remains(a, b){
   return a%b
 }
 
@@ -24,26 +24,26 @@ const OPERATIONS = {
 }
 
 function calc(a, b, operation){
-  let result = null;
   switch (operation){
     case OPERATIONS.sum:
-      result = (a,b);
+      result = (a, b);
       break
     
     case OPERATIONS.subtraction:
-      result=(a,b)
+      result=(a, b)
       break
     case OPERATIONS.multiplication:
-      result=(a,b)
+      result=(a, b)
       break
     
     case OPERATIONS.division:
-      result=(a,b)
+      result=(a, b)
       break
 
     case OPERATIONS.remains:
-      result=(a,b)
+      result=(a, b)
       break
   }
   return result;
 }
+export{calc}
