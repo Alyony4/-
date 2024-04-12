@@ -9,11 +9,16 @@ document.querySelectorAll('.button_number').forEach((button) => {
     const inputField = document.querySelector('.input_field')
      inputField.value !== ''
       inputField.value += value
-    
   })
 })
 
+document.getElementById('delete').addEventListener('click', function () {
+  const inputField = document.querySelector('.input_field')
+  inputField.value = ''
+}) 
+
 btnResult.addEventListener('click', function () {
+
   const a = Number(inputField.value)
   const b = Number(inputField.value)
   const operation = inputField.value

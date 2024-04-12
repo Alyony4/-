@@ -6,55 +6,46 @@
     <title>Весенний калькулятор</title>
 
     <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div class="calculator">
-      <div class="text">
+
+      <div class="input">
         <input class="input_field"/>
-        <button id="result">Результат</button>
+        <button id="delete">C</button>
+        <button id="knopka"><img src="img/den_t6o4d83v32rb_32.png" alt=""></button>
       </div>
+
       <div class="container_button">
         <div class="button">
-          <button value="1" class="button_number">
-            <img src="img/1.jpg" class="light-theme-img" alt="" />
-            <img src="img/11.jpg" class="dark-theme-img" alt="">
+          <button value="1" class="button_number">1
           </button>
-          <button value="2" class="button_number">
-            <img src="img/2.jpg" class="light-theme-img" alt="" />
-            <img src="img/2_1.jpg" class="dark-theme-img" alt="">
+          <button value="2" class="button_number">2
           </button>
-          <button value="3" class="button_number">
-            <img src="img/3.jpg" class="light-theme-img" alt="" />
-            <img src="img/3_3.jpg" class="dark-theme-img" alt="">
+          <button value="3" class="button_number">3
           </button>
-          <button value="4" class="button_number">
-            <img src="img/4.jpg" class="light-theme-img" alt="" />
-            <img src="img/4+4.jpg" class="dark-theme-img" alt="">
+          <button value="4" class="button_number">4
           </button>
-          <button value="5" class="button_number">
-            <img src="img/5.jpg" class="light-theme-img" alt="" />
-            <img src="img/5_5.jpg" class="dark-theme-img" alt="">
+          <button value="5" class="button_number">5
           </button>
-          <button value="6" class="button_number">
-            <img src="img/6.jpg" class="light-theme-img" alt="" />
-            <img src="img/6_6.jpg" class="dark-theme-img" alt="">
+          <button value="6" class="button_number">6
           </button>
-          <button value="7" class="button_number">
-            <img src="img/7.jpg" class="light-theme-img" alt="" />
-            <img src="img/7_7.jpg" class="dark-theme-img" alt="">
+          <button value="7" class="button_number">7
           </button>
-          <button value="8" class="button_number">
-            <img src="img/8.jpg" class="light-theme-img" alt="" />
-            <img src="img/8_8.jpg" class="dark-theme-img" alt="">
+          <button value="8" class="button_number">8
           </button>
-          <button value="9" class="button_number">
-            <img src="img/9.jpg" class="light-theme-img" alt="" />
-            <img src="img/9_9.jpg" class="dark-theme-img" alt="">
+          <button value="9" class="button_number">9
           </button>
-          <button value="0" class="button_number">
-            <img src="img/0.jpg" class="light-theme-img" alt="" />
-            <img src="#" class="dark-theme-img" alt="">
+          <button value="0" class="button_number">0
           </button>
+          <button value="." class="button_number">.
+          </button>
+          <button id="result">=</button>
         </div>
         <div class="elements">
           <button value="+" class="button_number button_number_e">+</button>
@@ -65,8 +56,6 @@
         </div>
       </div>
     </div>
-
-    <button id="knopka"><img src="img/polumesyats_i_solntse_866enavm0szx_32.png" alt=""></button>
 
     <script src="calculator.js" type="module"></script>
     <script src="theme.js"></script>
