@@ -1,81 +1,74 @@
-*{
+* {
   margin: 0;
   padding: 0;
   top: 0;
 }
-body{
+:root{
+  --color-bg: papayawhip;
+  --color-border: #000 solid 1px;
+  --color-bx-shd: 10px 10px 15px 10px #9c7f6c;
+}
+.darkstyle{
+  --color-bg: #131313;
+  --color-border: papayawhip solid 1px;
+  --color-bx-shd: 10px 10px 15px 10px #9c7f6c;
+}
+body {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
-  background: papayawhip;
+  background: var(--color-bg);
 }
-.calculator{
-  position: relative; 
+input {
+  text-align: center;
+}
+.calculator {
+  position: relative;
   display: flex;
   flex-direction: column;
-  border: #000 solid 1px;
+  border: var(--color-border);
   border-radius: 30px;
   height: 400px;
   width: 400px;
   margin-top: 80px;
   background: #fffdfd;
-  box-shadow: 10px 10px 15px 10px #9c7f6c;
+  box-shadow: var(--color-bx-shd);
 }
-.text{
+.text {
   position: relative;
   display: flex;
   width: 100%;
   height: auto;
   margin-left: 40px;
 }
-.input_field1{
+.input_field {
   margin-top: 15px;
-  width: 70px;
+  width: 180px;
   height: 23px;
   font-size: 18px;
   border-radius: 5px;
   border: 1px solid #9c7f6c;
   box-shadow: 5px 5px 5px 5px #c2a796;
 }
-.input_field2{
+#result {
   margin-top: 15px;
-  width: 50px;
-  height: 23px;
-  font-size: 18px;
-  border-radius: 5px;
-  margin-left: 5px;
-  border: 1px solid #9c7f6c;
-  box-shadow: 5px 5px 5px 5px #c2a796;
-}
-.input_field3{
-  margin-top: 15px;
-  width: 70px;
-  height: 23px;
-  font-size: 18px;
-  border-radius: 5px;
-  margin-left: 5px;
-  border: 1px solid #9c7f6c;
-  box-shadow: 5px 5px 5px 5px #c2a796;
-}
-.result{
-  margin-top: 15px;
-  width: 120px;
+  width: 100px;
   height: 25px;
   margin-left: 10px;
-  font-size: 18px;
+  font-size: 15px;
   background: #fffdfd;
   border-radius: 5px;
   border: 1px solid #9c7f6c;
   box-shadow: 5px 5px 5px 5px #dbc5b8;
 }
-.container_button{
+.container_button {
   position: relative;
   display: flex;
   width: 100%;
   height: auto;
 }
-.button{
+.button {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -87,8 +80,8 @@ body{
   margin-left: 20px;
   flex: 2;
 }
-.button_numder{
-  width:55px;
+.button_number {
+  width: 55px;
   height: 65px;
   border: none;
   box-shadow: 5px 5px 5px 5px #c2a796;
@@ -96,12 +89,12 @@ body{
   margin-left: 10px;
   margin-top: 10px;
 }
-.button_numder img{
+.button_number img {
   width: 50px;
   height: 60px;
   border-radius: 10px;
 }
-.elements{
+.elements {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -112,9 +105,15 @@ body{
   margin-top: 10px;
   flex: 1;
 }
-.button_numder_e{
+.button_number_e {
   width: 35px;
   height: 45px;
   font-size: 18px;
   margin-top: 10px;
+}
+#knopka{
+  border: none;
+  height: 30px;
+  margin-top: 15px;
+  background: papayawhip;
 }

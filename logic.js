@@ -1,19 +1,18 @@
-function sum(a, b){
-     return a+b
+function sum(a, b) {
+  return a + b
 }
-function subtraction(a, b){
-  return a-b
+function subtraction(a, b) {
+  return a - b
 }
-function multiplication(a, b){
-  return a*b
+function multiplication(a, b) {
+  return a * b
 }
-function division(a, b){
-  return a/b
+function division(a, b) {
+  return a / b
 }
-function remains(a, b){
-  return a%b
+function remains(a, b) {
+  return a % b
 }
-
 
 const OPERATIONS = {
   sum: '+',
@@ -23,27 +22,28 @@ const OPERATIONS = {
   remains: '%'
 }
 
-function calc(a, b, operation){
-  switch (operation){
+function calc(a, b, operation) {
+  let result
+  switch (operation) {
     case OPERATIONS.sum:
-      result = (a, b);
+      result = sum(a, b)
       break
-    
     case OPERATIONS.subtraction:
-      result=(a, b)
+      result = subtraction(a, b)
       break
     case OPERATIONS.multiplication:
-      result=(a, b)
+      result = multiplication(a, b)
       break
-    
     case OPERATIONS.division:
-      result=(a, b)
+      result = division(a, b)
       break
-
     case OPERATIONS.remains:
-      result=(a, b)
+      result = remains(a, b)
       break
+    default:
+      alert('Operation Error!')
   }
-  return result;
+  return result
 }
-export{calc}
+
+export { calc }
