@@ -1,5 +1,4 @@
 let Theme = localStorage.getItem('Theme');
-const buttonImg = document.querySelector('.button_number')
 
 
 const button = document.querySelector('#knopka');
